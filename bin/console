@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'maksekeskus'
+require 'pry'
+require 'logger'
+require 'dotenv'
+
+Dotenv.load
+Maksekeskus::Config.url = ENV.fetch('URL')
+Maksekeskus::Config.shop_id = ENV.fetch('SHOP_ID')
+Maksekeskus::Config.api_key = ENV.fetch('API_KEY')
+Maksekeskus::Config.secret_key = ENV.fetch('SECRET_KEY')
+Maksekeskus::Config.logger = Logger.new(STDOUT)
+
+# You can add fixtures and/or initialization code here to make experimenting
+# with your gem easier. You can also use a different console, if you like.
+
+# (If you use this, don't forget to add pry to your Gemfile!)
+# require 'pry'
+# Pry.start
+
+# require 'irb'
+# IRB.start
+
+Pry.start

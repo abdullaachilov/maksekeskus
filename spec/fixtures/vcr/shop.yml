@@ -1,0 +1,464 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:27:32 GMT
+      Set-Cookie:
+      - JSESSIONID=3472377E6F0FCC523150FBAFF4DD5F2C; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - 5300fba0-fd63-4b22-aaca-88fb27f39904
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"contact":{"email":"maksekeskus.test@mailinator.com","phone":"123456789"},"created_at":"2014-06-02T13:26:21+0000","id":"f7741ab2-7445-45f9-9af4-0d0408ef1e4c","modified_at":"2017-08-09T00:00:01+0000","name":"maksekeskus.ee/test
+        1234567890","notifications":{"email":null,"method":"GET","url":null},"object":"shop","return":{"method":"POST","url":"https://portal.beehosting.pro/modules/gateways/callback/mk_bankcard_result.php"},"status":"ACTIVE"}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:27:32 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:27:34 GMT
+      Set-Cookie:
+      - JSESSIONID=D20AB18281979F0875D7CA0448C2EA22; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - b03becd6-e404-4433-a0cf-afad42dc725d
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"contact":{"email":"maksekeskus.test@mailinator.com","phone":"123456789"},"created_at":"2014-06-02T13:26:21+0000","id":"f7741ab2-7445-45f9-9af4-0d0408ef1e4c","modified_at":"2017-08-09T00:00:01+0000","name":"maksekeskus.ee/test
+        1234567890","notifications":{"email":null,"method":"GET","url":null},"object":"shop","return":{"method":"POST","url":"https://portal.beehosting.pro/modules/gateways/callback/mk_bankcard_result.php"},"status":"ACTIVE"}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:27:34 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop/configuration
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:32:26 GMT
+      Set-Cookie:
+      - JSESSIONID=E1BC4F87AF1B61CDBD7944DA3793D09C; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - e485ca1c-2c75-476e-9159-0020ccf9587c
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"contact":{"email":"maksekeskus.test@mailinator.com","phone":"123456789"},"created_at":"2014-06-02T13:26:21+0000","features":[{"enabled":true,"name":"shipments_without_credentials","object":"feature"}],"id":"f7741ab2-7445-45f9-9af4-0d0408ef1e4c","modified_at":"2017-08-09T00:00:01+0000","name":"maksekeskus.ee/test
+        1234567890","notifications":{"email":null,"method":"GET","url":null},"object":"shop","paymentMethods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"payment_methods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"return":{"method":"POST","url":"https://portal.beehosting.pro/modules/gateways/callback/mk_bankcard_result.php"},"status":"ACTIVE"}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:32:27 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop/configuration
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:32:46 GMT
+      Set-Cookie:
+      - JSESSIONID=4A6D8F73F3E65624EFBD7F7716E0182F; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - c0f6b00c-5419-4cc5-b0cd-3bec8e986a7b
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"contact":{"email":"maksekeskus.test@mailinator.com","phone":"123456789"},"created_at":"2014-06-02T13:26:21+0000","features":[{"enabled":true,"name":"shipments_without_credentials","object":"feature"}],"id":"f7741ab2-7445-45f9-9af4-0d0408ef1e4c","modified_at":"2017-08-09T00:00:01+0000","name":"maksekeskus.ee/test
+        1234567890","notifications":{"email":null,"method":"GET","url":null},"object":"shop","paymentMethods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"payment_methods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"return":{"method":"POST","url":"https://portal.beehosting.pro/modules/gateways/callback/mk_bankcard_result.php"},"status":"ACTIVE"}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:32:46 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop/configuration
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:32:53 GMT
+      Set-Cookie:
+      - JSESSIONID=262279CC1C88DA8BC7E155ACB16273FF; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - 051315d1-313d-4d4f-b6a3-992e6237abca
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"contact":{"email":"maksekeskus.test@mailinator.com","phone":"123456789"},"created_at":"2014-06-02T13:26:21+0000","features":[{"enabled":true,"name":"shipments_without_credentials","object":"feature"}],"id":"f7741ab2-7445-45f9-9af4-0d0408ef1e4c","modified_at":"2017-08-09T00:00:01+0000","name":"maksekeskus.ee/test
+        1234567890","notifications":{"email":null,"method":"GET","url":null},"object":"shop","paymentMethods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"payment_methods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"return":{"method":"POST","url":"https://portal.beehosting.pro/modules/gateways/callback/mk_bankcard_result.php"},"status":"ACTIVE"}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:32:53 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop/configuration
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:32:57 GMT
+      Set-Cookie:
+      - JSESSIONID=2D937366554BF3F512033AFF45F19B61; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - 6a730e6b-fe63-4c21-a6f3-91cd9e981ea6
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"contact":{"email":"maksekeskus.test@mailinator.com","phone":"123456789"},"created_at":"2014-06-02T13:26:21+0000","features":[{"enabled":true,"name":"shipments_without_credentials","object":"feature"}],"id":"f7741ab2-7445-45f9-9af4-0d0408ef1e4c","modified_at":"2017-08-09T00:00:01+0000","name":"maksekeskus.ee/test
+        1234567890","notifications":{"email":null,"method":"GET","url":null},"object":"shop","paymentMethods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"payment_methods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"return":{"method":"POST","url":"https://portal.beehosting.pro/modules/gateways/callback/mk_bankcard_result.php"},"status":"ACTIVE"}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:32:58 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop/configuration
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:33:02 GMT
+      Set-Cookie:
+      - JSESSIONID=90C686350C971AAE69CC353081B48602; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - 6718fc6c-8fb8-4358-b60e-1e957252387a
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"contact":{"email":"maksekeskus.test@mailinator.com","phone":"123456789"},"created_at":"2014-06-02T13:26:21+0000","features":[{"enabled":true,"name":"shipments_without_credentials","object":"feature"}],"id":"f7741ab2-7445-45f9-9af4-0d0408ef1e4c","modified_at":"2017-08-09T00:00:01+0000","name":"maksekeskus.ee/test
+        1234567890","notifications":{"email":null,"method":"GET","url":null},"object":"shop","paymentMethods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"payment_methods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx="},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx="},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx="},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx="},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx="},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx="},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx="},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx="},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx="},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx="},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx="},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx="},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx="},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx="},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx="},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx="},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx="},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx="},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx="}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[]},"return":{"method":"POST","url":"https://portal.beehosting.pro/modules/gateways/callback/mk_bankcard_result.php"},"status":"ACTIVE"}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:33:02 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop/fees?since=2017-07-09
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:41:00 GMT
+      Link:
+      - <https://api-test.maksekeskus.ee/v1/shop/fees?since=2017-07-09&page=1&per_page=30>;
+        rel="first",<https://api-test.maksekeskus.ee/v1/shop/fees?since=2017-07-09&page=1&per_page=30>;
+        rel="last"
+      Set-Cookie:
+      - JSESSIONID=E3D88BCDE3F79B7416E72BDF9B7E7A84; Path=/; Secure; HttpOnly
+      Vary:
+      - Accept-Encoding
+      X-Request-Id:
+      - 75ed20c9-74c4-4f70-90df-3fc50b3db87d
+      X-Total-Count:
+      - '2'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"object":"accounting","amount":-10.0,"vat":-2.0,"id":"cd792d4d-94f3-4913-80ae-011bacfe81da","created_at":"2017-07-31T02:00:28+0000"},{"object":"accounting","amount":-10.0,"vat":-2.0,"id":"b14958fa-3a3f-4e17-b6b5-538fb1d21b95","created_at":"2017-07-31T20:59:59+0000"}]'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:41:00 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop/accountstatements?since=2017-08-09
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:44:04 GMT
+      Link:
+      - <https://api-test.maksekeskus.ee/v1/shop/accountstatements?since=2017-08-09&page=1&per_page=30>;
+        rel="first",<https://api-test.maksekeskus.ee/v1/shop/accountstatements?since=2017-08-09&page=1&per_page=30>;
+        rel="last"
+      Set-Cookie:
+      - JSESSIONID=7AEFF49B4437368A7ADBAFAC3BB980CD; Path=/; Secure; HttpOnly
+      Vary:
+      - Accept-Encoding
+      X-Request-Id:
+      - e8607ddb-43e7-41dd-92b4-a5a938d03fa0
+      X-Total-Count:
+      - '6'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"created":"2017-08-09T00:00:01+0000","amount":-544.87,"type":"PAYOUT","balance_before":686.38,"balance_after":141.51,"payout_id":"8039","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":0.5,"type":"INCOME","transaction":"131431","channel":"EE_SEB","balance_before":141.51,"balance_after":142.01,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":-0.3,"type":"TRX_FEE_FIX","transaction":"131431","channel":"EE_SEB","balance_before":142.01000000000002,"balance_after":141.71,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":-0.06,"type":"VAT","transaction":"131431","channel":"EE_SEB","balance_before":141.71,"balance_after":141.65,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":0.0,"type":"VAT","transaction":"131431","channel":"EE_SEB","balance_before":141.65,"balance_after":141.65,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":-0.01,"type":"TRX_FEE","transaction":"131431","channel":"EE_SEB","balance_before":141.64999999999998,"balance_after":141.64,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0}]'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:44:06 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/shop/accountstatements?since=2017-08-09
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:44:36 GMT
+      Link:
+      - <https://api-test.maksekeskus.ee/v1/shop/accountstatements?since=2017-08-09&page=1&per_page=30>;
+        rel="first",<https://api-test.maksekeskus.ee/v1/shop/accountstatements?since=2017-08-09&page=1&per_page=30>;
+        rel="last"
+      Set-Cookie:
+      - JSESSIONID=C5B93EB7E9E688174478DA49FB4C4B3D; Path=/; Secure; HttpOnly
+      Vary:
+      - Accept-Encoding
+      X-Request-Id:
+      - 6f30f84a-1165-45f4-8e58-d30a114b14cc
+      X-Total-Count:
+      - '6'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"created":"2017-08-09T00:00:01+0000","amount":-544.87,"type":"PAYOUT","balance_before":686.38,"balance_after":141.51,"payout_id":"8039","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":0.5,"type":"INCOME","transaction":"131431","channel":"EE_SEB","balance_before":141.51,"balance_after":142.01,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":-0.3,"type":"TRX_FEE_FIX","transaction":"131431","channel":"EE_SEB","balance_before":142.01000000000002,"balance_after":141.71,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":-0.06,"type":"VAT","transaction":"131431","channel":"EE_SEB","balance_before":141.71,"balance_after":141.65,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":0.0,"type":"VAT","transaction":"131431","channel":"EE_SEB","balance_before":141.65,"balance_after":141.65,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0},{"created":"2017-08-09T13:25:44+0000","amount":-0.01,"type":"TRX_FEE","transaction":"131431","channel":"EE_SEB","balance_before":141.64999999999998,"balance_after":141.64,"merchant_reference":"50","original_amount":0.0,"exchange_rate":0.0}]'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:44:38 GMT
+recorded_with: VCR 3.0.3

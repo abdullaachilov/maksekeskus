@@ -1,0 +1,339 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-test.maksekeskus.ee/v1/transactions
+    body:
+      encoding: UTF-8
+      string: '{"transaction":{"amount":5,"currency":"EUR","reference":"123abc"},"customer":{"email":"cusotmer@exaomle.com","ip":"80.235.22.114"}}'
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Content-Type:
+      - application/json
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:54:12 GMT
+      Location:
+      - https://api-test.maksekeskus.ee/v1/transactions/a6182c9f-d7e6-4420-8706-acbc3179f137
+      Set-Cookie:
+      - JSESSIONID=A5217109C43CA164E8800B9114B949B9; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - 9e933232-e877-4e7b-9408-540eb8365d60
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"_links":{"Pay":{"href":"https://api-test.maksekeskus.ee/v1/transactions/a6182c9f-d7e6-4420-8706-acbc3179f137/payments"},"self":{"href":"https://api-test.maksekeskus.ee/v1/transactions/a6182c9f-d7e6-4420-8706-acbc3179f137"}},"amount":5.0,"country":null,"created_at":"2017-08-09T16:54:12+0000","currency":"EUR","customer":{"created_at":"2017-08-09T16:54:12+0000","email":"cusotmer@exaomle.com","id":"b6355af6-e74b-4e8c-9604-2b7cb014dbec","ip":"80.235.22.114","ip_country":"ee","name":"b6355af6-e74b-4e8c-9604-2b7cb014dbec","object":"customer"},"id":"a6182c9f-d7e6-4420-8706-acbc3179f137","method":null,"object":"transaction","payment_methods":{"banklinks":[{"country":"ee","name":"swedbank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SWED&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"ee","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_SEB&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"ee","name":"lhv","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LHV&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"ee","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"ee","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_DANSKE&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"ee","name":"krediidipank","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"ee","name":"pocopay","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"ee","name":"liisi_ee","url":"https://payment-test.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"lv","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_SEB&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"lv","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_NORDEA&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"lv","name":"citadele","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LV_CITADELE&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"lt","name":"seb","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_SEB&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"lt","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=LT_NORDEA&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"fi","name":"nordea","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_NORDEA&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"fi","name":"danske","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_DANSKE&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"fi","name":"pohjola","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_POHJOLA&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"fi","name":"alandsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_ALANDSBANKEN&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"fi","name":"handelsbanken","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_HANDELSBANKEN&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"},{"country":"fi","name":"spankki","url":"https://payment-test.maksekeskus.ee/banklink.html?method=FI_PAYTRAIL_SPANKKI&trx=a6182c9f-d7e6-4420-8706-acbc3179f137"}],"cards":[{"name":"visa"},{"name":"mastercard"},{"name":"maestro"}],"cash":[],"other":[{"name":"redirect","url":"https://payment-test.maksekeskus.ee/pay.html?trx=a6182c9f-d7e6-4420-8706-acbc3179f137"}]},"recurring_required":false,"reference":"123abc","status":"CREATED","type":null}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:54:13 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/transactions/a6182c9f-d7e6-4420-8706-acbc3179f137
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Content-Type:
+      - application/json
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/hal+json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 16:58:20 GMT
+      Set-Cookie:
+      - JSESSIONID=DECE6A806D85BE840C84C3BF109A810C; Path=/; Secure; HttpOnly
+      X-Request-Id:
+      - 5d8e5071-4b01-40d7-aa2d-b7db1ddd09f1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"_links":{"self":{"href":"https://api-test.maksekeskus.ee/v1/transactions/a6182c9f-d7e6-4420-8706-acbc3179f137"}},"amount":5.0,"country":null,"created_at":"2017-08-09T16:54:12+0000","currency":"EUR","customer":{"created_at":"2017-08-09T16:54:12+0000","email":"cusotmer@exaomle.com","id":"b6355af6-e74b-4e8c-9604-2b7cb014dbec","ip":"80.235.22.114","ip_country":"ee","name":"b6355af6-e74b-4e8c-9604-2b7cb014dbec","object":"customer"},"id":"a6182c9f-d7e6-4420-8706-acbc3179f137","method":null,"object":"transaction","recurring_required":false,"reference":"123abc","status":"CREATED","type":null}'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 16:58:20 GMT
+- request:
+    method: get
+    uri: https://api-test.maksekeskus.ee/v1/transactions?since=2017-08-09
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Maksekeskus Ruby API
+      Content-Type:
+      - application/json
+      Authorization:
+      - Basic Zjc3NDFhYjItNzQ0NS00NWY5LTlhZjQtMGQwNDA4ZWYxZTRjOnBmT3NHRDlvUGFGRUlMd3FGTEhFSGtQZjd2Wno0ajN0MzZuQWN1ZlAxYWJxVDlsOTlrb3l1QzFJV0FPY0JlcXQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Wed, 09 Aug 2017 17:01:20 GMT
+      Link:
+      - <https://api-test.maksekeskus.ee/v1/transactions?since=2017-08-09&page=1&per_page=30>;
+        rel="first",<https://api-test.maksekeskus.ee/v1/transactions?since=2017-08-09&page=1&per_page=30>;
+        rel="last"
+      Set-Cookie:
+      - JSESSIONID=76E289482E0A51A1B602D262F9C69A20; Path=/; Secure; HttpOnly
+      Vary:
+      - Accept-Encoding
+      X-Request-Id:
+      - 866cf2dd-206d-4c5b-9ba1-ed7294f3ab37
+      X-Total-Count:
+      - '12'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siYW1vdW50IjowLjUsImN1cnJlbmN5IjoiRVVSIiwib2JqZWN0IjoidHJh
+        bnNhY3Rpb24iLCJzdGF0dXMiOiJDT01QTEVURUQiLCJyZWZlcmVuY2UiOiI1
+        MCIsImN1c3RvbWVyIjp7Im9iamVjdCI6ImN1c3RvbWVyIiwibG9jYWxlIjoi
+        cnUiLCJjb3VudHJ5IjoiZWUiLCJpcCI6IjQ2LjM5LjE1OC42MSIsIm5hbWUi
+        OiJUw7XDtWdlciBMZcO1cMOkw7ZsZCIsImxpbmtzIjpbXSwiaWQiOiI3OTk4
+        YTMzNS1hOGY1LTQyODQtYTAzZC1kNGEyZTdlMTVhNTEiLCJjcmVhdGVkX2F0
+        IjoiMjAxNy0wOC0wOVQxMzoyMzozOCswMDAwIiwiaXBfY291bnRyeSI6ImVl
+        In0sInR5cGUiOiJiYW5rbGluayIsIm1ldGhvZCI6InNlYiIsImNvdW50cnki
+        OiJlZSIsImxpbmtzIjpbeyJyZWwiOiJzZWxmIiwiaHJlZiI6Imh0dHBzOi8v
+        YXBpLXRlc3QubWFrc2VrZXNrdXMuZWUvdjEvdHJhbnNhY3Rpb25zLzFjNDQw
+        MDNlLTViNzctNDRmNS1iNzVhLWEyNjMwMjZhYTI5MCJ9XSwiaWQiOiIxYzQ0
+        MDAzZS01Yjc3LTQ0ZjUtYjc1YS1hMjYzMDI2YWEyOTAiLCJjcmVhdGVkX2F0
+        IjoiMjAxNy0wOC0wOVQxMzoyMzozOCswMDAwIiwiY29tcGxldGVkX2F0Ijoi
+        MjAxNy0wOC0wOVQxMzoyMzo0MiswMDAwIiwicmVmdW5kZWRfYW1vdW50Ijow
+        LjAsInJlZnVuZGVkX29yaWdpbmFsX2Ftb3VudCI6MC4wLCJmZWVzIjowLjMx
+        LCJmZWVzX3ZhdCI6MC4wNiwibmV0X2Ftb3VudCI6MC4xMywiYmFua2xpbmsi
+        Onsib2JqZWN0IjoiYmFua2xpbmsiLCJpYmFuIjoiRUUxNzEwMTAxMjM0NTY3
+        ODkwMTciLCJkZXNjcmlwdGlvbiI6Ik1ha3Nla2Vza3VzIEFTLCBtYWtzZWtl
+        c2t1cy5lZS90ZXN0IDEyMzQ1Njc4OTAsIDUwICgxMzE0MzEpIiwiY3JlYXRl
+        ZF9hdCI6IjIwMTctMDgtMDlUMTM6MjM6NDMrMDAwMCJ9LCJyZWN1cnJpbmdf
+        cmVxdWlyZWQiOmZhbHNlfSx7ImFtb3VudCI6MC41LCJjdXJyZW5jeSI6IkVV
+        UiIsIm9iamVjdCI6InRyYW5zYWN0aW9uIiwic3RhdHVzIjoiRVhQSVJFRCIs
+        InJlZmVyZW5jZSI6IjUwIiwiY3VzdG9tZXIiOnsib2JqZWN0IjoiY3VzdG9t
+        ZXIiLCJsb2NhbGUiOiJydSIsImNvdW50cnkiOiJlZSIsImlwIjoiNDYuMzku
+        MTU4LjYxIiwibmFtZSI6ImRkM2YyOWY5LTE4OTUtNDFhYS05MmVhLTc3MDY3
+        MmM1MGZjYSIsImxpbmtzIjpbXSwiaWQiOiJkZDNmMjlmOS0xODk1LTQxYWEt
+        OTJlYS03NzA2NzJjNTBmY2EiLCJjcmVhdGVkX2F0IjoiMjAxNy0wOC0wOVQx
+        MzoyNTowNyswMDAwIiwiaXBfY291bnRyeSI6ImVlIn0sInR5cGUiOiJiYW5r
+        bGluayIsIm1ldGhvZCI6InNlYiIsImNvdW50cnkiOiJlZSIsImxpbmtzIjpb
+        eyJyZWwiOiJzZWxmIiwiaHJlZiI6Imh0dHBzOi8vYXBpLXRlc3QubWFrc2Vr
+        ZXNrdXMuZWUvdjEvdHJhbnNhY3Rpb25zLzczM2M1YjY1LTVmOWItNDdiNi1h
+        ODY5LWVlM2Y4N2I2N2E1OSJ9XSwiaWQiOiI3MzNjNWI2NS01ZjliLTQ3YjYt
+        YTg2OS1lZTNmODdiNjdhNTkiLCJjcmVhdGVkX2F0IjoiMjAxNy0wOC0wOVQx
+        MzoyNTowNyswMDAwIiwicmVjdXJyaW5nX3JlcXVpcmVkIjpmYWxzZX0seyJh
+        bW91bnQiOjAuNSwiY3VycmVuY3kiOiJFVVIiLCJvYmplY3QiOiJ0cmFuc2Fj
+        dGlvbiIsInN0YXR1cyI6IkVYUElSRUQiLCJyZWZlcmVuY2UiOiI1MCIsImN1
+        c3RvbWVyIjp7Im9iamVjdCI6ImN1c3RvbWVyIiwibG9jYWxlIjoicnUiLCJj
+        b3VudHJ5IjoiZWUiLCJpcCI6IjQ2LjM5LjE1OC42MSIsIm5hbWUiOiJlYWVi
+        ZTNkZC1jY2YzLTRkNzctOTkzYS0wY2M4NzI4N2FlYmEiLCJsaW5rcyI6W10s
+        ImlkIjoiZWFlYmUzZGQtY2NmMy00ZDc3LTk5M2EtMGNjODcyODdhZWJhIiwi
+        Y3JlYXRlZF9hdCI6IjIwMTctMDgtMDlUMTM6Mjg6MDErMDAwMCIsImlwX2Nv
+        dW50cnkiOiJlZSJ9LCJ0eXBlIjoiYmFua2xpbmsiLCJtZXRob2QiOiJzZWIi
+        LCJjb3VudHJ5IjoiZWUiLCJsaW5rcyI6W3sicmVsIjoic2VsZiIsImhyZWYi
+        OiJodHRwczovL2FwaS10ZXN0Lm1ha3Nla2Vza3VzLmVlL3YxL3RyYW5zYWN0
+        aW9ucy9kODMyOGZkNC05ZmYxLTQ2MGQtOTMyOC1kNTc2NzU5NmYxNzEifV0s
+        ImlkIjoiZDgzMjhmZDQtOWZmMS00NjBkLTkzMjgtZDU3Njc1OTZmMTcxIiwi
+        Y3JlYXRlZF9hdCI6IjIwMTctMDgtMDlUMTM6Mjg6MDErMDAwMCIsInJlY3Vy
+        cmluZ19yZXF1aXJlZCI6ZmFsc2V9LHsiYW1vdW50IjowLjUsImN1cnJlbmN5
+        IjoiRVVSIiwib2JqZWN0IjoidHJhbnNhY3Rpb24iLCJzdGF0dXMiOiJFWFBJ
+        UkVEIiwicmVmZXJlbmNlIjoiNTAiLCJjdXN0b21lciI6eyJvYmplY3QiOiJj
+        dXN0b21lciIsImxvY2FsZSI6InJ1IiwiY291bnRyeSI6ImVlIiwiaXAiOiI0
+        Ni4zOS4xNTguNjEiLCJuYW1lIjoiMTc5ZDNjZmItOGE3NS00MjM1LTg5ODgt
+        ODg2NDE1MGQ3OTg4IiwibGlua3MiOltdLCJpZCI6IjE3OWQzY2ZiLThhNzUt
+        NDIzNS04OTg4LTg4NjQxNTBkNzk4OCIsImNyZWF0ZWRfYXQiOiIyMDE3LTA4
+        LTA5VDEzOjI4OjM2KzAwMDAiLCJpcF9jb3VudHJ5IjoiZWUifSwidHlwZSI6
+        ImJhbmtsaW5rIiwibWV0aG9kIjoic2ViIiwiY291bnRyeSI6ImVlIiwibGlu
+        a3MiOlt7InJlbCI6InNlbGYiLCJocmVmIjoiaHR0cHM6Ly9hcGktdGVzdC5t
+        YWtzZWtlc2t1cy5lZS92MS90cmFuc2FjdGlvbnMvOTcyZTcyYTYtNTRiYi00
+        OGY2LWExMWEtYmViNzAzNDc2M2RiIn1dLCJpZCI6Ijk3MmU3MmE2LTU0YmIt
+        NDhmNi1hMTFhLWJlYjcwMzQ3NjNkYiIsImNyZWF0ZWRfYXQiOiIyMDE3LTA4
+        LTA5VDEzOjI4OjM2KzAwMDAiLCJyZWN1cnJpbmdfcmVxdWlyZWQiOmZhbHNl
+        fSx7ImFtb3VudCI6MC41LCJjdXJyZW5jeSI6IkVVUiIsIm9iamVjdCI6InRy
+        YW5zYWN0aW9uIiwic3RhdHVzIjoiRVhQSVJFRCIsInJlZmVyZW5jZSI6IjUw
+        IiwiY3VzdG9tZXIiOnsib2JqZWN0IjoiY3VzdG9tZXIiLCJsb2NhbGUiOiJy
+        dSIsImNvdW50cnkiOiJlZSIsImlwIjoiNDYuMzkuMTU4LjYxIiwibmFtZSI6
+        ImQ5YTk5NWUyLWZhNTUtNGVkMy1iNDVhLTNmYzczNmJmMjY1OSIsImxpbmtz
+        IjpbXSwiaWQiOiJkOWE5OTVlMi1mYTU1LTRlZDMtYjQ1YS0zZmM3MzZiZjI2
+        NTkiLCJjcmVhdGVkX2F0IjoiMjAxNy0wOC0wOVQxMzoyODo1NiswMDAwIiwi
+        aXBfY291bnRyeSI6ImVlIn0sInR5cGUiOiJiYW5rbGluayIsIm1ldGhvZCI6
+        InNlYiIsImNvdW50cnkiOiJlZSIsImxpbmtzIjpbeyJyZWwiOiJzZWxmIiwi
+        aHJlZiI6Imh0dHBzOi8vYXBpLXRlc3QubWFrc2VrZXNrdXMuZWUvdjEvdHJh
+        bnNhY3Rpb25zLzRjODc5NzEzLTM3ZGItNDI0Mi1iZDI3LTg3YTI0YTU1MTdl
+        NiJ9XSwiaWQiOiI0Yzg3OTcxMy0zN2RiLTQyNDItYmQyNy04N2EyNGE1NTE3
+        ZTYiLCJjcmVhdGVkX2F0IjoiMjAxNy0wOC0wOVQxMzoyODo1NiswMDAwIiwi
+        cmVjdXJyaW5nX3JlcXVpcmVkIjpmYWxzZX0seyJhbW91bnQiOjIwLjAsImN1
+        cnJlbmN5IjoiRVVSIiwib2JqZWN0IjoidHJhbnNhY3Rpb24iLCJzdGF0dXMi
+        OiJDQU5DRUxMRUQiLCJyZWZlcmVuY2UiOiI0NTY0IiwiY3VzdG9tZXIiOnsi
+        b2JqZWN0IjoiY3VzdG9tZXIiLCJsb2NhbGUiOiJldCIsImNvdW50cnkiOiJl
+        ZSIsImlwIjoiODMuMTg3LjE5Ny42NiIsIm5hbWUiOiJkN2IyZmRlMS0wYWRj
+        LTRmYWItYjYwYS1hNTY0ZTM4M2ExMjciLCJsaW5rcyI6W10sImlkIjoiZDdi
+        MmZkZTEtMGFkYy00ZmFiLWI2MGEtYTU2NGUzODNhMTI3IiwiY3JlYXRlZF9h
+        dCI6IjIwMTctMDgtMDlUMTM6NTc6NTkrMDAwMCIsImlwX2NvdW50cnkiOiJl
+        ZSJ9LCJ0eXBlIjoiYmFua2xpbmsiLCJtZXRob2QiOiJub3JkZWEiLCJjb3Vu
+        dHJ5IjoiZWUiLCJsaW5rcyI6W3sicmVsIjoic2VsZiIsImhyZWYiOiJodHRw
+        czovL2FwaS10ZXN0Lm1ha3Nla2Vza3VzLmVlL3YxL3RyYW5zYWN0aW9ucy81
+        ZDcyNjZlNC01MjBkLTQ2YTUtYmVlYy1iNzUxYWE4ODIzYzYifV0sImlkIjoi
+        NWQ3MjY2ZTQtNTIwZC00NmE1LWJlZWMtYjc1MWFhODgyM2M2IiwiY3JlYXRl
+        ZF9hdCI6IjIwMTctMDgtMDlUMTM6NTc6NTkrMDAwMCIsInRyYW5zYWN0aW9u
+        X3VybCI6eyJyZXR1cm5fdXJsIjp7InVybCI6Imh0dHA6Ly95ZXNpdHdvcmtz
+        LjE2bWIuY29tLz9tYWtlY29tbWVyY2VfcmV0dXJuPTEiLCJtZXRob2QiOiJQ
+        T1NUIn0sImNhbmNlbF91cmwiOnsidXJsIjoiaHR0cDovL3llc2l0d29ya3Mu
+        MTZtYi5jb20vP21ha2Vjb21tZXJjZV9yZXR1cm49MSIsIm1ldGhvZCI6IlBP
+        U1QifSwibm90aWZpY2F0aW9uX3VybCI6eyJ1cmwiOiJodHRwOi8veWVzaXR3
+        b3Jrcy4xNm1iLmNvbS8/bWFrZWNvbW1lcmNlX3JldHVybj0xIiwibWV0aG9k
+        IjoiUE9TVCJ9fSwicmVjdXJyaW5nX3JlcXVpcmVkIjpmYWxzZX0seyJhbW91
+        bnQiOjIwLjAsImN1cnJlbmN5IjoiRVVSIiwib2JqZWN0IjoidHJhbnNhY3Rp
+        b24iLCJzdGF0dXMiOiJDQU5DRUxMRUQiLCJyZWZlcmVuY2UiOiI0NTY1Iiwi
+        Y3VzdG9tZXIiOnsib2JqZWN0IjoiY3VzdG9tZXIiLCJsb2NhbGUiOiJldCIs
+        ImNvdW50cnkiOiJlZSIsImlwIjoiODMuMTg3LjE5Ny42NiIsIm5hbWUiOiJm
+        ZjA0N2YxNy04Mzc1LTQzN2ItOGZkZS05NzkzZjUzMmM4NjgiLCJsaW5rcyI6
+        W10sImlkIjoiZmYwNDdmMTctODM3NS00MzdiLThmZGUtOTc5M2Y1MzJjODY4
+        IiwiY3JlYXRlZF9hdCI6IjIwMTctMDgtMDlUMTM6NTk6NDMrMDAwMCIsImlw
+        X2NvdW50cnkiOiJlZSJ9LCJ0eXBlIjoiYmFua2xpbmsiLCJtZXRob2QiOiJu
+        b3JkZWEiLCJjb3VudHJ5IjoiZWUiLCJsaW5rcyI6W3sicmVsIjoic2VsZiIs
+        ImhyZWYiOiJodHRwczovL2FwaS10ZXN0Lm1ha3Nla2Vza3VzLmVlL3YxL3Ry
+        YW5zYWN0aW9ucy9hZGI0MWVkYi01NjJiLTQ1NTktYjk0Zi01MDNlYWNhYWE0
+        ZjYifV0sImlkIjoiYWRiNDFlZGItNTYyYi00NTU5LWI5NGYtNTAzZWFjYWFh
+        NGY2IiwiY3JlYXRlZF9hdCI6IjIwMTctMDgtMDlUMTM6NTk6NDMrMDAwMCIs
+        InRyYW5zYWN0aW9uX3VybCI6eyJyZXR1cm5fdXJsIjp7InVybCI6Imh0dHA6
+        Ly95ZXNpdHdvcmtzLjE2bWIuY29tLz9tYWtlY29tbWVyY2VfcmV0dXJuPTEi
+        LCJtZXRob2QiOiJQT1NUIn0sImNhbmNlbF91cmwiOnsidXJsIjoiaHR0cDov
+        L3llc2l0d29ya3MuMTZtYi5jb20vP21ha2Vjb21tZXJjZV9yZXR1cm49MSIs
+        Im1ldGhvZCI6IlBPU1QifSwibm90aWZpY2F0aW9uX3VybCI6eyJ1cmwiOiJo
+        dHRwOi8veWVzaXR3b3Jrcy4xNm1iLmNvbS8/bWFrZWNvbW1lcmNlX3JldHVy
+        bj0xIiwibWV0aG9kIjoiUE9TVCJ9fSwicmVjdXJyaW5nX3JlcXVpcmVkIjpm
+        YWxzZX0seyJhbW91bnQiOjIwLjAsImN1cnJlbmN5IjoiRVVSIiwib2JqZWN0
+        IjoidHJhbnNhY3Rpb24iLCJzdGF0dXMiOiJDQU5DRUxMRUQiLCJyZWZlcmVu
+        Y2UiOiI0NTY2IiwiY3VzdG9tZXIiOnsib2JqZWN0IjoiY3VzdG9tZXIiLCJs
+        b2NhbGUiOiJldCIsImNvdW50cnkiOiJlZSIsImlwIjoiODMuMTg3LjE5Ny42
+        NiIsIm5hbWUiOiJiYThiMDViMi0wZWJhLTQ2OTYtODNjMy0xMjI4ZGZmNzg5
+        NWEiLCJsaW5rcyI6W10sImlkIjoiYmE4YjA1YjItMGViYS00Njk2LTgzYzMt
+        MTIyOGRmZjc4OTVhIiwiY3JlYXRlZF9hdCI6IjIwMTctMDgtMDlUMTQ6MDA6
+        MzkrMDAwMCIsImlwX2NvdW50cnkiOiJlZSJ9LCJ0eXBlIjoiYmFua2xpbmsi
+        LCJtZXRob2QiOiJub3JkZWEiLCJjb3VudHJ5IjoiZWUiLCJsaW5rcyI6W3si
+        cmVsIjoic2VsZiIsImhyZWYiOiJodHRwczovL2FwaS10ZXN0Lm1ha3Nla2Vz
+        a3VzLmVlL3YxL3RyYW5zYWN0aW9ucy85MWEyYjZhZS0xNWNlLTQ5ZmEtYWVi
+        ZS03MDllMzc5ZDJmOWQifV0sImlkIjoiOTFhMmI2YWUtMTVjZS00OWZhLWFl
+        YmUtNzA5ZTM3OWQyZjlkIiwiY3JlYXRlZF9hdCI6IjIwMTctMDgtMDlUMTQ6
+        MDA6MzkrMDAwMCIsInRyYW5zYWN0aW9uX3VybCI6eyJyZXR1cm5fdXJsIjp7
+        InVybCI6Imh0dHA6Ly95ZXNpdHdvcmtzLjE2bWIuY29tLz9tYWtlY29tbWVy
+        Y2VfcmV0dXJuPTEiLCJtZXRob2QiOiJQT1NUIn0sImNhbmNlbF91cmwiOnsi
+        dXJsIjoiaHR0cDovL3llc2l0d29ya3MuMTZtYi5jb20vP21ha2Vjb21tZXJj
+        ZV9yZXR1cm49MSIsIm1ldGhvZCI6IlBPU1QifSwibm90aWZpY2F0aW9uX3Vy
+        bCI6eyJ1cmwiOiJodHRwOi8veWVzaXR3b3Jrcy4xNm1iLmNvbS8/bWFrZWNv
+        bW1lcmNlX3JldHVybj0xIiwibWV0aG9kIjoiUE9TVCJ9fSwicmVjdXJyaW5n
+        X3JlcXVpcmVkIjpmYWxzZX0seyJhbW91bnQiOjEyLjk1LCJjdXJyZW5jeSI6
+        IkVVUiIsIm9iamVjdCI6InRyYW5zYWN0aW9uIiwic3RhdHVzIjoiQ1JFQVRF
+        RCIsInJlZmVyZW5jZSI6IjEyM2FiYyIsImN1c3RvbWVyIjp7Im9iamVjdCI6
+        ImN1c3RvbWVyIiwiZW1haWwiOiJtYWtzZWtlc2t1cy50ZXN0LjE1MDIyOTQw
+        NTFAbWFpbGluYXRvci5jb20iLCJsb2NhbGUiOiJldCIsImNvdW50cnkiOiJl
+        ZSIsImlwIjoiODAuMjM1LjIyLjExNCIsIm5hbWUiOiJiMTViYjllYi05M2U0
+        LTRiZjQtYTYxOC01NGMyOTU0ZDk3ZTkiLCJsaW5rcyI6W10sImlkIjoiYjE1
+        YmI5ZWItOTNlNC00YmY0LWE2MTgtNTRjMjk1NGQ5N2U5IiwiY3JlYXRlZF9h
+        dCI6IjIwMTctMDgtMDlUMTY6NDY6MzUrMDAwMCIsImlwX2NvdW50cnkiOiJl
+        ZSJ9LCJ0eXBlIjpudWxsLCJtZXRob2QiOm51bGwsImNvdW50cnkiOiJlZSIs
+        ImxpbmtzIjpbeyJyZWwiOiJzZWxmIiwiaHJlZiI6Imh0dHBzOi8vYXBpLXRl
+        c3QubWFrc2VrZXNrdXMuZWUvdjEvdHJhbnNhY3Rpb25zLzg4NGIwNjQwLWU1
+        MTAtNDg3My1iMDcwLWVlYTlkYmZkYTBhMyJ9XSwiaWQiOiI4ODRiMDY0MC1l
+        NTEwLTQ4NzMtYjA3MC1lZWE5ZGJmZGEwYTMiLCJjcmVhdGVkX2F0IjoiMjAx
+        Ny0wOC0wOVQxNjo0NjozNSswMDAwIiwicmVjdXJyaW5nX3JlcXVpcmVkIjpm
+        YWxzZX0seyJhbW91bnQiOjUuMCwiY3VycmVuY3kiOiJFVVIiLCJvYmplY3Qi
+        OiJ0cmFuc2FjdGlvbiIsInN0YXR1cyI6IkNSRUFURUQiLCJyZWZlcmVuY2Ui
+        OiIxMjNhYmMiLCJjdXN0b21lciI6eyJvYmplY3QiOiJjdXN0b21lciIsImVt
+        YWlsIjoiY3Vzb3RtZXJAZXhhb21sZS5jb20iLCJpcCI6IjgwLjIzNS4yMi4x
+        MTQiLCJuYW1lIjoiZDA1NzFkNDItZmMwMC00OGJhLWIwZWMtMjdkMDE5ZjM0
+        ZmU4IiwibGlua3MiOltdLCJpZCI6ImQwNTcxZDQyLWZjMDAtNDhiYS1iMGVj
+        LTI3ZDAxOWYzNGZlOCIsImNyZWF0ZWRfYXQiOiIyMDE3LTA4LTA5VDE2OjUx
+        OjU2KzAwMDAiLCJpcF9jb3VudHJ5IjoiZWUifSwidHlwZSI6bnVsbCwibWV0
+        aG9kIjpudWxsLCJjb3VudHJ5IjpudWxsLCJsaW5rcyI6W3sicmVsIjoic2Vs
+        ZiIsImhyZWYiOiJodHRwczovL2FwaS10ZXN0Lm1ha3Nla2Vza3VzLmVlL3Yx
+        L3RyYW5zYWN0aW9ucy9kMGViZmE4YS1mZmE2LTRiNGItODNjZC0zODVhNTk2
+        NmE1ZDAifV0sImlkIjoiZDBlYmZhOGEtZmZhNi00YjRiLTgzY2QtMzg1YTU5
+        NjZhNWQwIiwiY3JlYXRlZF9hdCI6IjIwMTctMDgtMDlUMTY6NTE6NTYrMDAw
+        MCIsInJlY3VycmluZ19yZXF1aXJlZCI6ZmFsc2V9LHsiYW1vdW50Ijo1LjAs
+        ImN1cnJlbmN5IjoiRVVSIiwib2JqZWN0IjoidHJhbnNhY3Rpb24iLCJzdGF0
+        dXMiOiJDUkVBVEVEIiwicmVmZXJlbmNlIjoiMTIzYWJjIiwiY3VzdG9tZXIi
+        Onsib2JqZWN0IjoiY3VzdG9tZXIiLCJlbWFpbCI6ImN1c290bWVyQGV4YW9t
+        bGUuY29tIiwiaXAiOiI4MC4yMzUuMjIuMTE0IiwibmFtZSI6ImI2MzU1YWY2
+        LWU3NGItNGU4Yy05NjA0LTJiN2NiMDE0ZGJlYyIsImxpbmtzIjpbXSwiaWQi
+        OiJiNjM1NWFmNi1lNzRiLTRlOGMtOTYwNC0yYjdjYjAxNGRiZWMiLCJjcmVh
+        dGVkX2F0IjoiMjAxNy0wOC0wOVQxNjo1NDoxMiswMDAwIiwiaXBfY291bnRy
+        eSI6ImVlIn0sInR5cGUiOm51bGwsIm1ldGhvZCI6bnVsbCwiY291bnRyeSI6
+        bnVsbCwibGlua3MiOlt7InJlbCI6InNlbGYiLCJocmVmIjoiaHR0cHM6Ly9h
+        cGktdGVzdC5tYWtzZWtlc2t1cy5lZS92MS90cmFuc2FjdGlvbnMvYTYxODJj
+        OWYtZDdlNi00NDIwLTg3MDYtYWNiYzMxNzlmMTM3In1dLCJpZCI6ImE2MTgy
+        YzlmLWQ3ZTYtNDQyMC04NzA2LWFjYmMzMTc5ZjEzNyIsImNyZWF0ZWRfYXQi
+        OiIyMDE3LTA4LTA5VDE2OjU0OjEyKzAwMDAiLCJyZWN1cnJpbmdfcmVxdWly
+        ZWQiOmZhbHNlfSx7ImFtb3VudCI6NS4wLCJjdXJyZW5jeSI6IkVVUiIsIm9i
+        amVjdCI6InRyYW5zYWN0aW9uIiwic3RhdHVzIjoiQ1JFQVRFRCIsInJlZmVy
+        ZW5jZSI6IjEyM2FiYyIsImN1c3RvbWVyIjp7Im9iamVjdCI6ImN1c3RvbWVy
+        IiwiZW1haWwiOiJjdXNvdG1lckBleGFvbWxlLmNvbSIsImlwIjoiODAuMjM1
+        LjIyLjExNCIsIm5hbWUiOiI0MjQ0ZTFhYi0wMWYxLTRkOWEtOWIwNS1iMDBl
+        YTE1ZGYxNjEiLCJsaW5rcyI6W10sImlkIjoiNDI0NGUxYWItMDFmMS00ZDlh
+        LTliMDUtYjAwZWExNWRmMTYxIiwiY3JlYXRlZF9hdCI6IjIwMTctMDgtMDlU
+        MTY6NTY6NDIrMDAwMCIsImlwX2NvdW50cnkiOiJlZSJ9LCJ0eXBlIjpudWxs
+        LCJtZXRob2QiOm51bGwsImNvdW50cnkiOm51bGwsImxpbmtzIjpbeyJyZWwi
+        OiJzZWxmIiwiaHJlZiI6Imh0dHBzOi8vYXBpLXRlc3QubWFrc2VrZXNrdXMu
+        ZWUvdjEvdHJhbnNhY3Rpb25zLzVhNjkyYTFhLTczNDktNGNiNy1iODMwLTRi
+        M2U3ZjE1ZjM1YyJ9XSwiaWQiOiI1YTY5MmExYS03MzQ5LTRjYjctYjgzMC00
+        YjNlN2YxNWYzNWMiLCJjcmVhdGVkX2F0IjoiMjAxNy0wOC0wOVQxNjo1Njo0
+        MiswMDAwIiwicmVjdXJyaW5nX3JlcXVpcmVkIjpmYWxzZX1d
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 17:01:20 GMT
+recorded_with: VCR 3.0.3
