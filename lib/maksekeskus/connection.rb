@@ -17,7 +17,7 @@ module Maksekeskus
         conn.use Faraday::Request::UrlEncoded
         conn.use Faraday::Response::RaiseError
         conn.use Faraday::Encoding
-        conn.use Faraday::Response::Logger, config.logger
+        conn.use Faraday::Response::Logger, config.logger, bodies: true
         conn.adapter Faraday.default_adapter
       end
     end
